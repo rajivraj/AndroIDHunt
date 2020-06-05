@@ -21,5 +21,7 @@ Instagram at <a href="http://instagram.com/heydarklord" target="_blank">`@HeyDar
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
+> <a href="https://github.com/heydarklord/AndroIDHunt/blob/master/LICENSE" target="_blank">`Read License`</a>
+
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2015 © <a href="https://instagram.com/heydarklord" target="_blank">HeyDarklord</a>.
