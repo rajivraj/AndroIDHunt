@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toolActivity"
+    android:background="@color/bck">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        >
+
+        <ImageView
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/jad"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jadx"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/jadec"
+            android:textColor="#585858"
+            android:textSize="18dp"
+
+            />
+
+<ImageView
+            android:layout_width="300dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/apktool"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apktool"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/apkdec"
+            android:textColor="#585858"
+            android:textSize="18dp"
+            />
+        <ImageView
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/jd"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jdd2j"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/jddec"
+            android:textColor="#585858"
+            android:textSize="18dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

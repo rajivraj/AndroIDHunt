@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.heydarklord.androidhunt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WebActivity"></activity>
+        <activity android:name=".privateActivity" />
+        <activity
+            android:name=".LoggingActivity"
+            android:parentActivityName=".TrainGActivity" />
+        <activity
+            android:name=".hkroneActivity"
+            android:parentActivityName=".SettingActivity" />
+        <activity
+            android:name=".toolActivity"
+            android:parentActivityName=".BasicActivity" />
+        <activity
+            android:name=".cmnvulActivity"
+            android:parentActivityName=".BasicActivity" />
+        <activity
+            android:name=".bugActivity"
+            android:parentActivityName=".BasicActivity" />
+        <activity
+            android:name=".basicandroActivity"
+            android:parentActivityName=".BasicActivity" />
+        <activity
+            android:name=".SettingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TrainGActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ResActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BasicActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

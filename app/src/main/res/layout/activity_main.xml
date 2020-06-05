@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="163dp"
+            android:background="@drawable/lo"
+            android:contentDescription="@string/todo"
+            android:foregroundGravity="center"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1"
+            android:id="@+id/imglogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/basicbtn"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_basics"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imglogo"/>
+
+    <Button
+    android:id="@+id/button3"
+    android:layout_width="172dp"
+    android:layout_height="49dp"
+    android:layout_marginLeft="@android:dimen/app_icon_size"
+    android:layout_marginRight="@android:dimen/app_icon_size"
+    android:background="@drawable/corner"
+    android:elevation="25dp"
+    android:foregroundGravity="center_vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:text="@string/resourece"
+    android:textColor="@color/btnTextColor"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_basic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/tnground"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_training"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setting"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button4"
+        android:drawableLeft="@drawable/ic_settings_black_24dp"/>
+
+
+    <TextView
+    android:id="@+id/ownname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foregroundGravity="center_vertical"
+    android:gravity="center_vertical"
+    android:text="@string/app_name"
+    android:textColor="@color/TextColor"
+    android:textStyle="bold"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:layout_below="@id/button5"/>
+
+    <TextView
+        android:id="@+id/ownner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/owner"
+        android:textColor="#5A5858"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/ownname"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ownner"
+        android:orientation="horizontal">
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ownner"
+        android:layout_toStartOf="@+id/instagram"
+        android:background="@drawable/facebook"
+        android:onClick="loadfb"
+        android:layout_marginLeft="60dp"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ownner"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/instagram"
+            android:onClick="loadinsta"
+            android:id="@+id/instagram"
+            android:layout_marginLeft="50dp"/>
+
+
+        <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ownner"
+        android:background="@drawable/linkedin"
+        android:onClick="loadlink"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+

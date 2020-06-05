@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cmnvulActivity"
+    android:background="@color/bck">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/istittle"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/isdec"
+            android:textColor="#585858"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owasp"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="26dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owasp1"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="23dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/m1"
+            android:textColor="#585858"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owasp2"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="23dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/m2"
+            android:textColor="#585858"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_01"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="23dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/tipm2"
+            android:textColor="#585858"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m3"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="23dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ruluko"
+            android:text="@string/owasp3"
+            android:textColor="#585858"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/formore"
+            android:textStyle="bold"
+            android:textColor="@color/TextColor"
+            android:fontFamily="@font/ruluko"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt7"/>
+        <ImageView
+            android:layout_width="269dp"
+            android:layout_height="335dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cls"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

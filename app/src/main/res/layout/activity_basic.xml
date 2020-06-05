@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity"
+    android:background="@color/bck">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:background="@drawable/splash"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/basicinfobtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:id="@+id/imgviewer"/>
+
+    <Button
+        android:id="@+id/toolbtn"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/tools"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_format_paint_black_24dp"/>
+
+
+
+    <Button
+        android:id="@+id/commenissuebtn"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/common_vulnerabilities"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_cmnvul_black_24dp"/>
+
+    <Button
+        android:id="@+id/bugbtn"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/aboutandroidhunt"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_adb_black_24dp"/>
+
+
+    <Button
+        android:id="@+id/basicinfobtn"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginBottom="350dp"
+        android:background="@drawable/corner"
+        android:elevation="25dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/basics_about_android"
+        android:textColor="@color/btnTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/ic_basics"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
