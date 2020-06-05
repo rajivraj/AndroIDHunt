@@ -15,3 +15,11 @@ Because At The Point When I Started I Don't Know Where To Start
 
 Twitter at <a href="http://twitter.com/heydarklord" target="_blank">`@HeyDarklord`</a>
 Instagram at <a href="http://instagram.com/heydarklord" target="_blank">`@HeyDarklord`</a>
+
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2015 © <a href="https://instagram.com/heydarklord" target="_blank">HeyDarklord</a>.
