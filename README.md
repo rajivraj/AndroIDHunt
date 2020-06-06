@@ -35,7 +35,7 @@ This Section Contains Blogs, Youtube Channels, Slideshare, Github Projects For T
 
 ## Training Ground
 
-This Section Contains Labs. But This is a First Version of THis So Because of That Contains Only Few Basic Labs
+This Section Contains Labs. But This is a First Version of AndroIDHunt That's Why it Contains Only Few Basic Labs
 
 
 
